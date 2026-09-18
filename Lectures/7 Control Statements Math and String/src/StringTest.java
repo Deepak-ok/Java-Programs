@@ -5,5 +5,6 @@ public class StringTest {
         sb.append(", now this is the");
         sb.append(76.45);
         System.out.println(sb);
+//        System.out.println(sb.toString());   both are same
     }
 }
