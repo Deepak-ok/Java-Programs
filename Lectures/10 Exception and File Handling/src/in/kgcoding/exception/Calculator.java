@@ -28,7 +28,7 @@ public class Calculator {
 
         try {
             int[] a = new int[5];
-            System.out.printf("Result is %d", a[6]);
+//            System.out.printf("Result is %d", a[6]);
             a[6] = first / second;
             System.out.printf("Result is %d", a[6]);
         } catch (ArithmeticException exception) {
