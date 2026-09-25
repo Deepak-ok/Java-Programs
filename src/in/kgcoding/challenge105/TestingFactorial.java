@@ -13,14 +13,20 @@ public class TestingFactorial {
                 list.add(service.submit(task));
             }
 
-            for (Future<Integer> future : list) {
-                System.out.printf("\n Result is: %d", future.get());
+            for (int i = 0; i < list.size(); i++) {
+                Future<Integer> future = list.get(i);
+                System.out.printf("\nResult of %d is: %d", i, future.get());
             }
+
+
+//            for (Future<Integer> future : list) {
+//                System.out.printf("\n Result is: %d", future.get());
+//            }
 
             service.shutdown();
 
             if (!service.awaitTermination(10, TimeUnit.SECONDS)) {
-                System.out.println("BOHOT HUA BUS.....");
+                System.out.println("BOHOT HUA MAALIK.....");
                 service.shutdown();
             }
 
