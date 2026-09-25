@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 public class TestingFutures {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService service = Executors.newFixedThreadPool(1);
+        ExecutorService service = Executors.newFixedThreadPool(2);
         FetchName task1 = new FetchName("Prashant");
         FetchName task2 = new FetchName("Sanchit");
         FetchName task3 = new FetchName("KG Coding");
