@@ -25,5 +25,9 @@ public class TestingReduce {
         int newSum2=numbers.stream()
                 .reduce(0,(a,b)-> a+b );
         System.out.printf("\n Sum Using reduce is %d",newSum2);
+
+        int max=numbers.stream()
+                .reduce(0,(a,b)-> a>b ? a : b );
+        System.out.printf("\n max Using reduce is %d",max);
     }
 }
