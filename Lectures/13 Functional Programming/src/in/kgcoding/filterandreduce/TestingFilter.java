@@ -3,7 +3,7 @@ package in.kgcoding.filterandreduce;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class TestingFilterAndReduce {
+public class TestingFilter {
     static void main() {
         List<String> fruits=List.of("apple","banana","mango","cherry","date");
 
