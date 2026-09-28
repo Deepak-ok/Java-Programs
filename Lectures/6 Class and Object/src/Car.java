@@ -1,4 +1,4 @@
- class Car {
+ public class Car {
     static int noOfCarsSold;
     int noOfWheels;
     String color;
