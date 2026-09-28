@@ -1,4 +1,4 @@
- class Car {
+ class Car1 {
     String color;
     float price;
 
@@ -12,18 +12,18 @@
         price = 50000;
     }
 
-    Car(String carColor, float currPrice) {
+    Car1(String carColor, float currPrice) {
         color = carColor;
         price = currPrice;
     }
 
-    Car() { // Default constructor
+    Car1() { // Default constructor
         color = "Black";
         price = 50000;
     }
 
     public static void main(String[] args) {
-        Car swift = new Car();
+        Car1 swift = new Car1();
 
         if (true) { // code block
             System.out.println("Code Block");
