@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Arithmetic {
+class Arithmetic1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Arithmetic calculator\n");
